@@ -30,7 +30,7 @@ import Success from "./components/Success"
 import HelpCenter from "./pages/HelpCenter"
 
 // backend url here to connect frontend //
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://vingo-backend-zpxl.onrender.com"
 
 export const MyContext = createContext();
 
