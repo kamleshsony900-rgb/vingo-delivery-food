@@ -40,9 +40,9 @@ app.use((req, res, next) => {
 
 // konse local sever connect kar sakte hai 
 app.use(cors({
-  origin:"https://vingo-abwe.onrender.com",
-  credentials:true
-}))
+  origin: ["https://vingo-abwe.onrender.com"],
+  credentials: true
+}));
 // global routes convert in json//
 app.use(express.json());
 app.use(cookieParser());
