@@ -21,7 +21,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors:{
-  origin:"http://localhost:5173",
+  origin:"https://vingo-abwe.onrender.com",
   credentials:true,
   methods:["POST", "GET"]
 }
@@ -40,7 +40,7 @@ app.use((req, res, next) => {
 
 // konse local sever connect kar sakte hai 
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://vingo-abwe.onrender.com",
   credentials:true
 }))
 // global routes convert in json//
