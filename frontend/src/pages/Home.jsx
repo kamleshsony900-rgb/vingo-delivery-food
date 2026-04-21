@@ -1,5 +1,5 @@
 import React from 'react'
-import UserDashBoard from '../components/UserDashBoard'; // ✅ FIXED
+import UserDashBoard from '../components/UserDashboard'; // ✅ FIXED
 import OwnerDashboard from '../components/OwnerDashboard';
 import DeliveryBoy from '../components/DeliveryBoy';
 import { useSelector } from 'react-redux';
