@@ -39,6 +39,7 @@ app.use((req, res, next) => {
 
 
 // konse local sever connect kar sakte hai 
+app.set("trust proxy", 1);
 app.use(cors({
   origin: "https://vingo-abwe.onrender.com",
   credentials: true,
