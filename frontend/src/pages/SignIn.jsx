@@ -33,6 +33,7 @@ const SignIn = () => {
     const dispatch = useDispatch();
 
     const handleSignIn = async () => {
+  e.preventDefault();
   setLoading(true);
 
   try {
