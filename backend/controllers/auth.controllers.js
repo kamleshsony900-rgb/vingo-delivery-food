@@ -41,6 +41,7 @@ export const signUp = async (req, res) => {
       httpOnly: true,
       secure: true,
       sameSite: "none",
+      path: "/",
       maxAge: 7 * 24 * 60 * 60 * 1000
     });
 
@@ -89,6 +90,7 @@ export const signIn = async (req, res) => {
             httpOnly: true,
             secure: true,
             sameSite: "none",
+          path: "/",
             maxAge: 7 * 24 * 60 * 60 * 1000
         });
 
