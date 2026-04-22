@@ -55,14 +55,15 @@ function App() {
   if (authLoading) return <h2>Checking authentication...</h2>;
 
 
+ useEffect(() => {
   userGetCurrentUser();
-  useUpdateLocation()
-
+  useUpdateLocation();
   useGetCity();
   useGetMyShop();
   useGetShopByCity();
   useGetItemsByCity();
   userGetMyOrders();
+}, []);
 
 
   // thsi event to access to backend (.on ke thuru)
